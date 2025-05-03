@@ -8,13 +8,7 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAtJFhzoR-_sS4oDzD78XGxrjHCU0uE-fY",
-  authDomain: "languageapp-89fde.firebaseapp.com",
-  projectId: "languageapp-89fde",
-  storageBucket: "languageapp-89fde.appspot.com",
-  messagingSenderId: "982346984981",
-  appId: "1:982346984981:web:d76c7df8408a95a2f5a81c",
-  measurementId: "G-366METLZM8"
+  
 };
 const firebaseApp = initializeApp(firebaseConfig);
 
