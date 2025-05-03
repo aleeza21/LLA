@@ -1,0 +1,128 @@
+import { StyleSheet } from "react-native";
+
+
+const stylesHome = StyleSheet.create({
+  container: {
+    flex: 1,
+    padding: 20,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  title: {
+    fontSize: 24,
+    fontWeight: "bold",
+    marginBottom: 20,
+  },
+  button: {
+    backgroundColor: "red",
+    paddingHorizontal: 20,
+    paddingVertical: 10,
+    borderRadius: 5,
+    margin: 2,
+  },
+  buttonText: {
+    color: "white",
+    fontWeight: "bold",
+  },
+});
+
+
+const stylesSignIn = StyleSheet.create({
+
+  container: {
+    flex: 1,
+    padding: 20,
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: "purple",
+    color: "white",
+  },
+
+  title: {
+    fontSize: 24,
+    fontWeight: "bold",
+    marginBottom: 20,
+    color: "white",
+  },
+  input: {
+    width: "100%",
+    height: 40,
+    borderColor: "black",
+    borderWidth: 1,
+    borderRadius: 5,
+    marginBottom: 20,
+    paddingHorizontal: 10,
+  },
+  button: {
+    backgroundColor: "black",
+    paddingHorizontal: 20,
+    paddingVertical: 10,
+    borderRadius: 5,
+  },
+  buttonText: {
+    color: "white",
+    fontWeight: "bold",
+  },
+  error: {
+    color: "red",
+    marginBottom: 20,
+  },
+  footer: {
+    marginTop: 20,
+  },
+  link: {
+    color: "blue",
+  },
+});
+
+const stylesSignUp = StyleSheet.create({
+  container: {
+    flex: 1,
+    padding: 20,
+    alignItems: "center",
+    justifyContent: "center",
+    
+  },
+  title: {
+    fontSize: 24,
+    fontWeight: "bold",
+    marginBottom: 20,
+  },
+  input: {
+    width: "100%",
+    height: 40,
+    borderColor: "gray",
+    borderWidth: 1,
+    borderRadius: 5,
+    marginBottom: 20,
+    paddingHorizontal: 10,
+  },
+  button: {
+    backgroundColor: "blue",
+    paddingHorizontal: 20,
+    paddingVertical: 10,
+    borderRadius: 5,
+  },
+  buttonText: {
+    color: "white",
+    fontWeight: "bold",
+  },
+  error: {
+    color: "red",
+    marginBottom: 20,
+  },
+  footer: {
+    marginTop: 20,
+  },
+  link: {
+    color: "blue",
+  },
+});
+
+
+export {
+  stylesHome,
+  stylesSignIn,
+  stylesSignUp,
+  
+};
